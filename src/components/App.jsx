@@ -22,7 +22,7 @@ export const App = () => {
   }, [dispatch]);
 
   return !refreshing ? (
-  
+  <div className={css.conteine}>
     <div className={css.conteiner}>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
@@ -51,6 +51,7 @@ export const App = () => {
         </Route>
       </Routes>
     </div>
+  </div>
   ): (<Example type={'balls'} color={'red'}/>)
     
   
