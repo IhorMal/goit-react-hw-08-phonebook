@@ -1,8 +1,13 @@
 .form {
-  width: 320px;
+  width: 400px;
   margin: 0 auto;
   margin-top: 100px;
+  background-color: rgba(158, 209, 241, 0.5);
+  padding: 50px;
+  border-radius: 10px;
 }
+
+
 
 .label {
   display: flex;
@@ -18,4 +23,11 @@
   display: block;
   margin: 0 auto;
 
+}
+
+
+.input {
+  border: 1px double #6d7578;
+
+  
 }

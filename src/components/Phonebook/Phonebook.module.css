@@ -1,6 +1,6 @@
 .form {
-  display: inline-block;
-  padding: 10px 30px;
+  max-width: 300px;
+ margin: 0 auto;
 }
 .label li {
   margin-bottom: 10px;
@@ -8,4 +8,8 @@
 .input {
   display: flex;
   margin-bottom: 10px;
+}
+
+.input {
+  border: 1px double #6d7578;
 }

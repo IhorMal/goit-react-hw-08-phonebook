@@ -19,7 +19,7 @@ export const Filter = () => {
 
     return (
     <div className={css.conteiner}>
-        <Input placeholder='Find contacts by name'  type="text" name="filter"  onChange={(e) => dispatch(contactSearch(e.target.value))} />
+        <Input placeholder='Find contacts by name'  className={css.input} type="text" name="filter"  onChange={(e) => dispatch(contactSearch(e.target.value))} />
         {filter !== '' && (
             <ul>
             {filterContact().map(({ name, id, number }) => (

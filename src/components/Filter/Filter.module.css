@@ -17,3 +17,7 @@ margin-top: 25px;
     align-items: center;
     margin-bottom: 10px;
 }
+
+.input {
+    border: 1px double #6d7578;
+  }

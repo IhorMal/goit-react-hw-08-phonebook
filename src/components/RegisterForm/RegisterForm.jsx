@@ -29,15 +29,15 @@ export const RegisterForm = () => {
     <form className={css.form} onSubmit={handleSubmit} autoComplete="off">
       <label className={css.label}>
         Username
-        <Input  type="text" name="name" />
+        <Input className={css.input}  type="text" name="name" />
       </label>
       <label className={css.label}>
         Email
-        <Input type="email" name="email" />
+        <Input className={css.input}  type="email" name="email" />
       </label>
       <label className={css.label}>
         Password
-        <Input type="password" name="password" />
+        <Input className={css.input}  type="password" name="password" />
       </label>
       <Button className={css.btn} colorScheme='teal' size='sm' type="submit">Register</Button>
     </form>
