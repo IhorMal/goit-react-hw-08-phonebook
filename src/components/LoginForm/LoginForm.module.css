@@ -8,11 +8,6 @@
 }
 
 
-
-.input {
-  border: 1px solid #6d7578;
-}
-
 .label {
   display: flex;
   flex-direction: column;
