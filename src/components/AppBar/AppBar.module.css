@@ -1,0 +1,9 @@
+
+.conteiner {
+    display: flex;
+    align-items: center;
+}
+
+.conteiner p {
+    margin-right: 10px;
+}

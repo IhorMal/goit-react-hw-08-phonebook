@@ -1,0 +1,19 @@
+.conteiner {
+max-width: 320px;
+margin: 0 auto;
+margin-top: 25px;
+}
+.conteiner input {
+    margin-bottom: 20px;
+}
+
+.list {
+    margin-bottom: 10px;
+}
+
+.conteiner li {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
