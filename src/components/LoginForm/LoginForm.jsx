@@ -29,7 +29,7 @@ export const LoginForm = () => {
     <form className={css.form} onSubmit={handleSubmit} autoComplete="off">
       <label className={css.label}>
         Email
-        <Input className={css.input} colorScheme="red"  type="email" name="email" />
+        <Input className={css.input}  type="email" name="email" />
       </label>
       <label className={css.label}>
         Password
